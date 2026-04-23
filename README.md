@@ -1,30 +1,30 @@
-# Playwright QA Portfolio Sample
+# Playwright Test Automation Portfolio
 
-This project contains sample UI tests written with Playwright and JavaScript.
+This project demonstrates automated UI testing using Playwright.
 
-## Covered scenarios
-- Successful login with valid credentials
-- Error handling for locked-out user
-- Add item to cart
-- Remove item from cart
-- Checkout form validation
+## :wrench: Tech Stack
 
-## Tech stack
-- Playwright
-- JavaScript
-- Page Object Model
+Playwright
+JavaScript (Node.js)
+Page Object Model (POM)
 
-## How to run
-```bash
-npm install
-npx playwright install
-npm test
-```
+## :open_file_folder: Project Structure
 
-## Why this project is useful for interviews
-This sample shows:
-- basic Playwright structure
-- reusable page objects
-- positive and negative test coverage
-- readable assertions
-- practical UI validation
+tests/ — test cases 
+pages/ — page objects 
+playwright.config.js — configuration 
+
+## :arrow_forward: How to Run Tests
+
+bash npm install npx playwright test
+
+## :bar_chart: Features
+
+UI automation tests 
+Page Object Model structure 
+Parallel test execution 
+HTML reports 
+
+## :bulb: Author 
+
+Tetiana D
